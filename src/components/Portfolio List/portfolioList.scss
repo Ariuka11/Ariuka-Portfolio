@@ -1,13 +1,18 @@
-@import '../../global.scss';
+@import "../../global.scss";
 
-li{
-    font-size: 16px;
-    margin-right: 50px;
-    padding: 7px;
-    cursor: pointer;
-    border-radius: 10px;
-    &.active{
-        background-color: $mainColor;
-        color: white;
-    }
+.portfolioList {
+  font-size: 14px;
+  margin-right: 50px;
+  padding: 7px;
+  border-radius: 10px;
+  cursor: pointer;
+
+  @include mobile {
+    margin-right: 20px;
+  }
+
+  &.active {
+    background-color: $mainColor;
+    color: white;
+  }
 }

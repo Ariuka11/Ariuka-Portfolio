@@ -70,7 +70,7 @@ export default function Projects() {
         src="assets/arrow.png"
         className="arrow right"
         alt=""
-        onClick={() => handleClick("right")}
+        onClick={() => handleClick()}
       />
     </div>
   );
